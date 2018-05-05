@@ -1,0 +1,22 @@
+
+.criteria > li {
+  display: inline;
+  margin: 5px;
+}
+th, td {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.profile_picture {
+  border: 1px solid black;
+  opacity: .4;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.personal_data {
+  position: absolute;
+  display: inline-block;
+  top: 80px;
+}

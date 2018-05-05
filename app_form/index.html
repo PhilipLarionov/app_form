@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resume</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Вакансия: Junior Frontend Developer</h1>
+  <form class="app_form" action="#" method="get">
+    <div class="profile_picture"><img src="c09.jpg" alt="profile_picture" width="120" height="120"></div>
+    <div class="personal_data">
+      <input type="text" name="name" placeholder="Ваше имя" maxlength="30">
+      <br>
+      <a href="#">Ссылка на репозиторий</a>
+      <p>Опыта работы нет</p>
+    </div>
+    <div class="date">
+      <h2>Дата собеседования:</h2>
+      <input type="date" id="date">
+    </div>
+    <ul class="criteria">
+      <h2>Уровень английского</h2>
+        <li><input type="checkbox" name="criterion" value="#">  Плохо</li>
+        <li><input type="checkbox" name="criterion" value="#">  Средне</li>
+        <li><input type="checkbox" name="criterion" value="#">  Хорошо</li>
+        <li><input type="checkbox" name="criterion" value="#">  Превосходно</li>
+      </ul>
+    <div class="skills">
+      <form action="#" class="skills_form" method="post">
+      <ul>
+        <li class="skill">HTML</li>
+        <li class="skill">CSS</li>
+        <li class="skill">JavaScript</li>
+        <li class="extra_skill">...</li>
+      </br>
+      </ul>
+      <input type="text" name="extra_skill" placeholder="Введите навык" maxlength="15">
+      <input type="submit" value="Добавить в список">
+      </form>
+    </div>
+    <div class="comm">
+      <h2>Коммуникабельность: </h2>
+      <select name="comm_levels" id="comm_levels" value="5">
+        <option value="fine">:)))))))))))))))))))))))))))))))</option>
+        <option value="good">:))))))))))))))</option>
+        <option value="normal" selected>:)</option>
+        <option value="abnormal">:/</option>
+        <option value="weirdo">:((((((((((((((((</option>
+      </select>
+    </div>
+    <div class="salary">
+      <h2>Желаемая зп: </h2>
+      <input type="text" name="salary" placeholder="Введите значение: " maxlength="5">
+    </div>
+    <ul class="criteria">
+      <h2>Подходит по критериям: </h2>
+      <li><input type="checkbox" name="criterion" value="#">  Знания английского</li>
+      <li><input type="checkbox" name="criterion" value="#">  Оклад</li>
+      <li><input type="checkbox" name="criterion" value="#">  Навыки</li>
+      <li><input type="checkbox" name="criterion" value="#">  Сразу видно, свой человек</li>
+    </ul>
+    <div class="education">
+      <h2>Образование, курсы...</h2>
+      <table>
+        <tr>
+          <th> # </th>
+          <th>Сроки обучения</th>
+          <th>Наименование учебного заведения, курсов</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>...</td>
+          <td>...</td>
+        </tr>
+      </table>
+    </div>
+  </form>
+</body>
+</html>
